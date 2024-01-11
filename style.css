@@ -1,4 +1,39 @@
-body{
-    padding: 1em 1em 1em;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+html{
+    scroll-behavior: smooth;
 }
+body{
+    padding: 0em 1em 1em 1em;
+    font-family: "Montserrat", sans-serif;
+    color: #6b52b7;
+}
+.quote{
+    font-size: 1.5em;
+    padding: 1em 1em 1em 2em;
+    height: 2em;
+}
+h1{
+    font-family:  "bebas neue", serif;
+    font-size: 3em;
+    color: #17114cff;
+    border-radius: 1em;
+}
+h1 span{
+    background-color: #de91ff;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+.quote-img{
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 1em;
+    height: 25em;
+    filter: drop-shadow(1em 1em #5685cf);
+}
+/*hex codes: 
+#17114cff (indigo purple) 
+#5685cf (light blue)
+#de91ff (pink-lavender) 
+#f9cb9c (yellow/peach)
+#6b52b7 (blue-purple) */
