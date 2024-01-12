@@ -7,14 +7,21 @@ body{
     color: #6b52b7;
     font-size: 1em;
 }
+.documentary{
+    height: 100%;   
+    border-radius: 1em;
+    filter: drop-shadow(1em 1em #5685cf);
+    margin-bottom: 2em;
+}
 .quote{
     font-size: 1.5em;
     padding: 1em 1em 1em;
     height: 100%;
     width: 100%;
     background-clip: padding-box;
-    background-color: #f9cb9c;
+    background-color: #5685cf;
     border-radius: 1em;
+    color: #fff;
 }
 h1{
     font-family:  "bebas neue", serif;
@@ -32,14 +39,14 @@ h2{
     font-size: 2em;
 }
 h2 span{
-    background: #f9cb9c;
+    background: #ff9abf;
     padding: 0.25em;
     border-radius: 0.25em;
 }
 h3{
     font-family: "bebas neue", serif;
     font-size: 2em;
-    color: #f9cb9c;
+    color: #ff9abf;
 }
 h3 span{
     background: #6b52b7;
@@ -49,7 +56,35 @@ h3 span{
 .quote-img{
     display: flex;
     align-items: center;
-    padding: 1em 10em 1em;
+    padding: 1em 0em 1em;
+}
+.spiderverse{
+    display: flex;
+    align-items: center;
+    padding: 1em 0em 1em;
+}
+.spiderverse-text{
+    padding: 1em 1em 1em;
+    height: 100%;
+    width: 100%;
+    background-clip: padding-box;
+    background-color: #5685cf;
+    border-radius: 1em;
+    color: #fff;
+}
+.klaus{
+    display: flex;
+    align-items: center;
+    padding: 1em 0em 1em;
+}
+.klaus-text{
+    padding: 1em 1em 1em;
+    height: 100%;
+    width: 100%;
+    background-clip: padding-box;
+    background-color: #5685cf;
+    border-radius: 1em;
+    color: #fff;
 }
 img{
     border-radius: 1em;
