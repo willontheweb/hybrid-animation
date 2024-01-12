@@ -5,11 +5,15 @@ body{
     padding: 0em 1em 1em 1em;
     font-family: "Montserrat", sans-serif;
     color: #6b52b7;
+    font-size: 1em;
 }
 .quote{
     font-size: 1.5em;
-    padding: 1em 1em 1em 2em;
-    height: 2em;
+    padding: 1em 1em 1em;
+    height: 100%;
+    width: 100%;
+    background-clip: padding-box;
+    background-color: #f9cb9c;
 }
 h1{
     font-family:  "bebas neue", serif;
@@ -25,11 +29,13 @@ h1 span{
 .quote-img{
     display: flex;
     align-items: center;
+    padding: 1em 10em 1em;
 }
 img{
     border-radius: 1em;
     height: 25em;
     filter: drop-shadow(1em 1em #5685cf);
+    padding: 0em 2em 0em;
 }
 /*hex codes: 
 #17114cff (indigo purple) 
