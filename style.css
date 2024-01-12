@@ -14,6 +14,7 @@ body{
     width: 100%;
     background-clip: padding-box;
     background-color: #f9cb9c;
+    border-radius: 1em;
 }
 h1{
     font-family:  "bebas neue", serif;
@@ -26,6 +27,25 @@ h1 span{
     padding: 0.25em;
     border-radius: 0.25em;
 }
+h2{
+    font-family: "bebas neue", serif;
+    font-size: 2em;
+}
+h2 span{
+    background: #f9cb9c;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
+h3{
+    font-family: "bebas neue", serif;
+    font-size: 2em;
+    color: #f9cb9c;
+}
+h3 span{
+    background: #6b52b7;
+    padding: 0.25em;
+    border-radius: 0.25em;
+}
 .quote-img{
     display: flex;
     align-items: center;
@@ -35,7 +55,7 @@ img{
     border-radius: 1em;
     height: 25em;
     filter: drop-shadow(1em 1em #5685cf);
-    padding: 0em 2em 0em;
+    margin: 1em 2em 1em;
 }
 /*hex codes: 
 #17114cff (indigo purple) 
